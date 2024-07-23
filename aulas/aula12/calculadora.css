@@ -1,0 +1,37 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 10px;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+
+.numero{
+    background-color: rgb(249, 244, 246);
+    width: 40px;
+    height: auto;
+}
+
+.operador{
+    background-color: rgb(230, 214, 220);
+}
+
+.opIgual{
+    background-color: rgb(101, 29, 47);
+}
+
+main{
+    background-color: rgb(78, 21, 35);
+    width: 20%;
+    height: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#display{
+    background-color: rgb(249, 244, 246);
+}

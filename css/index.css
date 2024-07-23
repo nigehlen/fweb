@@ -1,0 +1,176 @@
+html, body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(90, 0, 34);
+    /*background-image: url(../img/universo.png);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    height: 20%;
+}
+
+.menu-opcoes ul{
+    font-size: 20px;
+}
+
+.menu-opcoes a{
+    color: #003366;
+}
+
+.menu-opcoes a:hover{
+    color: rgb(58, 17, 27);
+}
+
+.menu-opcoes a:active{
+    color: rgb(249, 244, 246);
+}
+
+main{
+    height: 65%;
+}
+
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.menu-opcoes{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+.painel{
+    width: 48%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px black;
+}
+
+.aula1{
+    float: left;
+    background-color: rgb(157, 199, 237);
+    background: linear-gradient(5deg, rgb(58, 17, 27), rgb(172, 103, 120));
+}
+
+.aula2{
+    float: right;
+    background-color: rgb(157, 199, 237);
+    background: linear-gradient(5deg, rgb(172, 103, 120), rgb(58, 17, 27));
+}
+
+.aula3{
+    float: left;
+    background-color: rgb(157, 199, 237);
+    background: linear-gradient(5deg, rgb(58, 17, 27), rgb(172, 103, 120));
+}
+
+.painel li{
+    display: inline-block;
+    width: 10%;
+    vertical-align: top;
+    margin: 2px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.painel h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(249, 244, 246);
+    text-shadow: 10px 5px 5px rgb(58, 17, 27);
+
+}
+
+.painel a{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+.social li a[href*=instagram]{
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/icone\ instagram.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social li a[href*=github]{
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/icone\ github.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social li a[href*=linkedin]{
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/icone\ linkedin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+
+.social{
+    position: absolute;
+    right: 12px;
+    top: 10px;
+}
+
+footer{
+    clear: both;
+    background-image: url(../img/imagem\ bordo.png);
+    height: 15%;
+}
+
+.social li{
+    float: left;
+    margin-right: 20px;
+}
+
+.painel li:hover{
+    box-shadow: 10px 10px 5px black;
+    transition: 0.7s;
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.2) rotate(-5deg);
+}
+
+.imgexe{
+    width: 50%;
+    height: auto;
+}
+
+.imglogo{
+    width: 8%;
+    height: auto;
+}
+
+.destaque img{
+    width: 10%;
+    height: 10%;
+}
+
+.destaque{
+    text-align: center;
+    height: 10%;
+}

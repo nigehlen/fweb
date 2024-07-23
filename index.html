@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Página principal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/mobile.css" media="(max-width:720px)">
+</head>
+<body>
+    <header class="container">
+        <figure>
+            <img class="imglogo" src="./img/logo.png" alt="Imagem do logo">
+        </figure>
+        <nav class="menu-opcoes">
+            <ul>
+                <li><a href="index.html">Página principal</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="conteudo.html">Conteúdo</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul> 
+        </nav>
+    </header>
+    <main>
+        <section id="destaques">
+            <div class="container destaque">
+                <figure>
+                    <img src="./img/imagem flor.png" alt="imagem flor">
+                </figure>
+            </div>
+            <div class="container paineis">
+                <!--painel da aula 1-->
+                <section class="painel aula1">
+                    <h2>Painel Aula1</h2>
+                    <ul>
+                        <li><h3>Exercício1</h3>
+                            <img class="imgexe" src="./img/icone html.png" alt="icone de HTML">
+                            <a href="./aulas/aula1/exe1.html">Exercício1</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="painel aula2">
+                    <h2>Painel Aula2</h2>
+                    <ul>
+                        <li><h3>Exercício2</h3>
+                            <img class="imgexe" src="./img/icone html.png" alt="icone de HTML">
+                            <a href="./aulas/aula2/exe4.html">Exercício2</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="painel aula3">
+                    <h2>Painel aula3</h2>
+                    <ul>
+                        <li><h3>Exercício3</h3>
+                            <img class="imgexe" src="./img/icone html.png" alt="icone de HTML">
+                            <a href="./aulas/aula3/fonte.html">Exercício3</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </section>
+    </main>
+    <footer class="container">
+        <figure>
+            <img class="imglogo" src="./img/logo.png" alt="imagem do logo">
+        </figure>
+
+        <input type="range" id="input-range" min="0" max="1" step="0.01">
+        <audio src="./" id="audioplayer"></audio>
+        <button id="Play">Play</button>
+        
+        <ul class="social">
+            <li> <a href="https://github.com/nigehlen">Github</a></li>
+            <li><a href="https://www.instagram.com/nicoli_gehlen?igsh=NnUwZ2J3ODZoMTg5">Instagram</a></li>
+            <li> <a href="https://www.linkedin.com/in/nicoli-gehlen-b24969303/">LinkedIn</a></li>
+        </ul>        
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>
