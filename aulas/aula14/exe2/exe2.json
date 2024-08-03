@@ -1,0 +1,32 @@
+[
+    {
+        "nome": "Isabella",
+        "idade": 18,
+        "cpf": 12345678900,
+        "telefone": 51912345678
+    },
+    {
+        "nome": "Alice",
+        "idade": 19,
+        "cpf": 98765432100,
+        "telefone": 51987654321
+    },
+    {
+        "nome": "Carol",
+        "idade": 20,
+        "cpf": 12340056789,
+        "telefone":51910203040
+    },
+    {
+        "nome": "Cláudia",
+        "idade": 21,
+        "cpf": 98760054321,
+        "telefone": 51980706050
+    },
+    {
+        "nome": "João",
+        "idade": 22,
+        "cpf": 11223344550,
+        "telefone": 5195671234
+    }
+]

@@ -2,26 +2,39 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 10px;
+    width: 95%;
+    height: 83%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 html, body{
     width: 100%;
     height: 100%;
+    background-color: rgb(125, 68, 82);
 }
 
 
 .numero{
     background-color: rgb(249, 244, 246);
-    width: 40px;
     height: auto;
+    border-radius: 20px;
+    width: 65px;
+    height: 65px;
 }
 
 .operador{
     background-color: rgb(230, 214, 220);
+    border-radius: 20px;
+    width: 65px;
+    height: 65px;
 }
 
 .opIgual{
     background-color: rgb(101, 29, 47);
+    border-radius: 20px;
+    width: 65px;
+    height: 65px;
 }
 
 main{
@@ -30,8 +43,20 @@ main{
     height: 70%;
     margin-right: auto;
     margin-left: auto;
+    border-radius: 10px;
 }
 
 #display{
     background-color: rgb(249, 244, 246);
+    width: 75%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 12px;
+    margin-top: 6px;
+}
+
+h1{
+    font-size: 32px;
+    color: rgb(78, 21, 35);
 }

@@ -1,3 +1,7 @@
+html, body{
+    background-color: rgb(249, 244, 246);
+}
+
 .menu-opcoes ul{
     font-size: 20px;
 }
@@ -24,13 +28,15 @@
 }
 
 #imglogo{
-    width: 10%;
-    height: 10%;
+    width: 8%;
+    height: auto;
+    border-radius: 50%;
 }
 
 #imglupa{
     width: 5%;
     height: auto;
+    border-radius: 50%;
 }
 
 .busca, 
@@ -101,4 +107,31 @@
 .busca{
    border-top-left-radius: 10px;
    border-top-right-radius: 10px;
+}
+
+.button-busca{
+    border: 2px solid rgb(58, 17, 27);
+    border-radius: 6px;
+    box-shadow: -3px 4px 0 grey;
+}
+
+.button-menu{
+    border: 2px solid rgb(58, 17, 27);
+    border-radius: 6px;
+    box-shadow: -3px 4px 0 grey;
+}
+
+.busca h2{
+    color: rgb(249, 244, 246);
+}
+
+.menu-conteudo h2{
+    color: rgb(249, 244, 246);
+}
+
+#imglogo{
+    width: 8%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid rgb(58, 17, 27);
 }

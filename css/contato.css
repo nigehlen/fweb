@@ -52,3 +52,10 @@ video{
     width: 50%;
     height: auto;
 }
+
+
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}

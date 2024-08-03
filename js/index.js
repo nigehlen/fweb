@@ -1,4 +1,4 @@
-var banners = ["./img/imagem flor.png","./img/imagem planta.png"];
+var banners = ["./img/imagem flor.png","./img/paisagem2.png"];
 var bannerAtual = 0
 
 function trocaBnner(){

@@ -1,7 +1,8 @@
 html, body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(90, 0, 34);
-    /*background-image: url(../img/universo.png);*/
+    /*background-image: url(../img/fundo4.png);*/
+    background-color: rgb(249, 244, 246);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -17,7 +18,8 @@ header{
 }
 
 .menu-opcoes a{
-    color: #003366;
+    color: #000000;
+    margin-right: 15px;
 }
 
 .menu-opcoes a:hover{
@@ -62,18 +64,21 @@ main{
     float: left;
     background-color: rgb(157, 199, 237);
     background: linear-gradient(5deg, rgb(58, 17, 27), rgb(172, 103, 120));
+    font-size: 11px;
 }
 
 .aula2{
     float: right;
     background-color: rgb(157, 199, 237);
     background: linear-gradient(5deg, rgb(172, 103, 120), rgb(58, 17, 27));
+    font-size: 11px;
 }
 
 .aula3{
     float: left;
     background-color: rgb(157, 199, 237);
     background: linear-gradient(5deg, rgb(58, 17, 27), rgb(172, 103, 120));
+    font-size: 11px;
 }
 
 .painel li{
@@ -98,6 +103,7 @@ main{
     color: black;
     font-size: 15px;
     text-align: center;
+    font-size: 11px;
 }
 
 .social li a[href*=instagram]{
@@ -135,6 +141,7 @@ main{
     position: absolute;
     right: 12px;
     top: 10px;
+    
 }
 
 footer{
@@ -163,6 +170,8 @@ footer{
 .imglogo{
     width: 8%;
     height: auto;
+    border-radius: 50%;
+    border: 2px solid rgb(58, 17, 27);
 }
 
 .destaque img{
@@ -173,4 +182,10 @@ footer{
 .destaque{
     text-align: center;
     height: 10%;
+}
+
+.button{
+    border: 2px solid black;
+    border-radius: 6px;
+    box-shadow: -3px 4px 0 grey;
 }
