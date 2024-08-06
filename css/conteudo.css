@@ -1,5 +1,8 @@
 html, body{
     background-color: rgb(249, 244, 246);
+    /*background-image: url(../img/fundo4.png);
+    background-repeat: no-repeat;
+    background-size: contain;*/
 }
 
 .menu-opcoes ul{

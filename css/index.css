@@ -63,7 +63,7 @@ main{
 .aula1{
     float: left;
     background-color: rgb(157, 199, 237);
-    background: linear-gradient(5deg, rgb(58, 17, 27), rgb(172, 103, 120));
+    background: linear-gradient(5deg, rgb(172, 103, 120), rgb(58, 17, 27));
     font-size: 11px;
 }
 
@@ -77,7 +77,14 @@ main{
 .aula3{
     float: left;
     background-color: rgb(157, 199, 237);
-    background: linear-gradient(5deg, rgb(58, 17, 27), rgb(172, 103, 120));
+    background: linear-gradient(5deg, rgb(172, 103, 120), rgb(58, 17, 27));
+    font-size: 11px;
+}
+
+.aula4{
+    float: right;
+    background-color: rgb(157, 199, 237);
+    background: linear-gradient(5deg, rgb(172, 103, 120), rgb(58, 17, 27));
     font-size: 11px;
 }
 
